@@ -1,8 +1,8 @@
 Vine
 ====
 
-Single purpose proof of concept Vine client using their private API.
+Proof of concept PHP Vine client using their iOS/Android API.
 
-Relied on https://github.com/starlock/vino/wiki/API-Reference for identifying endpoints.
+Given a username and password, this script will retrieve all URLs of uploaded videos for that account.
 
-Server side calls simply tunnel the request through to the relevant Vine API endpoints, adding in the session ID for authenticated calls.
+Relied on https://github.com/starlock/vino/wiki/API-Reference for identifying endpoints, code is simplified to be easily hackable and extendable.
